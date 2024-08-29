@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+    
+<header>
+    <title> Bình Bronze Official Website</title>
+    <link rel="icon" type="image/x-icon" href="ass/img/fav.jpg">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="BinhBronze, BinhBronze streamer, tiktoker BinhBronze, BinhBronze nimotv">
+    <meta name="description" content="Website chính chủ của Bình Bronze">
+
+    <meta property="og:image" content="ass/img/banner.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="436">
+    <meta property="og:image:height" content="228">
+        
+    
+    <style>
+        body{
+            text-align: justify;
+            border-color: gray;
+            display: flex;
+            
+        }
+        .content{
+            border-style: solid;
+            border-color: green;
+            padding: 10px;
+            margin: 0 auto;
+            max-width: 800px;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .left-content, .right-content{
+            max-width: 300px;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            
+            border-style: solid;
+            border-color: green;
+            
+            max-width: 100%;
+            margin: 10px 0;
+        }
+        
+        .title{
+            font-size: large;
+            font-weight:bold;
+            padding: 5px;
+        }
+/* Menu web*/
+        .content {
+            flex-direction: column;
+            width: 100%;
+        }
+        .content .menu{
+            display: flex;
+            background-color: #EFFEE1;
+            padding: 10px;
+            justify-content: center;
+            font-size: 12px;
+            list-style-type: none;
+        }
+        
+        .content .menu a {
+            color: #1C8AF9;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Đổi màu liên kết khi di chuột qua */
+        .content .menu a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+/*Hot-news*/
+        .hot-news table{
+            border: 1px solid black;
+            width: 100%;
+            text-align: left;
+            
+        }   
+        
+        .hot-news .cot-1{
+            width : 20%;
+        }
+        .hot-news .cot-2{
+            width : 62%;
+        }
+        .hot-news .cot-3{
+            width : 30%;
+        }
+        
+        .hot-news a {
+            color: #1C8AF9;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .hot-news td{
+            text-align: left;
+        }
+        .hot-news th{
+            text-align: center;
+        }
+/*Download link*/
+        .download-link{
+            justify-content: center;
+            display: flex;
+        }
+        .download-link table{
+            
+            text-align: center;
+            border-style: none;
+            /* border-collapse: collapse; */
+            width: 50%; /* Hoặc kích thước bạn muốn */
+        }
+        .download-link th, td {
+            text-align: center;
+            border-style: none;
+            
+        }
+/*Products*/
+        .products{
+            justify-content: center;
+        }
+        .products table{
+            
+            text-align: center;
+            border-style: none;
+            /* border-collapse: collapse; */
+            width: 100%; /* Hoặc kích thước bạn muốn */
+        }
+        .products .item{
+            justify-content: center;
+            width:200px;
+            height: 200px;
+        }
+        
+        .products a {
+            color: #1C8AF9;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        
+        
+/*Responsesive*/
+    @media (max-width: 768px) {
+        .content {
+            flex-direction: column;
+        }
+        .left-content, .right-content {
+            display: none;
+        }
+        .products .item {
+            width: 30%;
+            font-size: small;
+        }
+        .download-link table {
+            width: 100%;
+        }
+        
+        .menu ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .menu li {
+            padding: 10px;
+        }
+        
+        .hot-news .cot-3, .hot-news .cot-1 {
+            display : none;
+        }
+        .hot-news .cot-2{
+            font-size: smaller;
+            padding : 10px;
+        }
+    }
+    </style>
+</header>
+
+<body>
+    <div class="left-content">
+        <img src="ass/img/left-ads.png" alt="Quảng cáo">
+    </div>
+    <div class="content">
+        <div class="banner">
+            <img src="ass/img/banner.png" alt="Banner Hi FPT">
+        </div>
+        <div class="menu">
+            <ul class="menu">
+                <li>
+                    <a href="https://binhbronze.com">Trang Chủ</a>
+                </li>
+                <li>
+                    <a href="https://www.nimo.tv/user/82717249" target="_blank">Nimo TV Page</a>
+                    
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@binhbronze" target="_blank">Tiktok Page</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="title"> Lịch livestream:</div>
+        <div class="hot-news">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="hot-news cot-1">Thời gian</th>
+                        <th class="hot-news cot-2">Nội dung</th>
+                        <th class="hot-news cot-3"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="hot-news cot-1">23h00 - 01h00</td>
+                        <td class="hot-news cot-2">
+                            <a href="https://www.nimo.tv/user/82717249">
+                                Live game Black Myth : Wukong
+                            </a>
+                        </td>
+                        <td class="hot-news cot-3">
+                            <a href="https://www.nimo.tv/user/82717249">
+                                Xem ngay
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="title">Follow Streamer:</div>
+        <div class="download-link">
+            <table>
+                <tr>
+                    <td rowspan="2">
+                        <img src="ass/img/qr-tiktok.png" alt="QR Follow">
+                    </td>
+                    <td>
+                        <a href="https://hi.fpt.vn/rev/lbq/736eyDgY" target="_blank">
+                        <img src="ass/img/tiktok.png" alt="IOS Download">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://hi.fpt.vn/rev/lbq/736eyDgY" target="_blank">
+                        <img src="ass/img/nimotv.png" alt="Android Download">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="banner">
+            <img src="ass/img/banner-2.png" alt="Banner Hi FPT">
+        </div>
+    </div>
+    <div class="right-content">
+        <img src="ass/img/right-ads.png" alt="Quảng cáo">
+        
+    </div>
+    
+</body>
+</html>
